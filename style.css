@@ -1,0 +1,121 @@
+/* ===== FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;500;700&display=swap');
+
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #050c1c;
+    color: #e7f5ff;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00d0ff;
+    font-size: 32px;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #020611, #081a3b);
+    border-bottom: 3px solid #00d9ff;
+    text-shadow: 0 0 15px #00eaff, 0 0 40px #00eaff;
+}
+
+/* ===== BUTTON NAV FUTURISTIK ===== */
+nav a {
+    color: #00eaff;
+    font-family: "Orbitron", sans-serif;
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 2px solid #00eaff;
+    border-radius: 10px;
+    transition: 0.35s ease;
+    position: relative;
+    letter-spacing: 1px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(0, 255, 255, 0.09),
+        rgba(0, 180, 255, 0.2)
+    );
+
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+}
+
+/* Hover efek glowing */
+nav a:hover {
+    color: #ffffff;
+    border-color: #27f3ff;
+    box-shadow: 
+        0 0 10px #27f3ff,
+        0 0 20px #27f3ff,
+        0 0 40px rgba(39, 243, 255, 0.7);
+    transform: translateY(-3px);
+}
+
+/* Klik efek */
+nav a:active {
+    transform: translateY(1px) scale(0.97);
+    box-shadow: 0 0 10px #00eaff;
+}
+/* ===== NAVBAR FUTURISTIK (POSISI SEPERTI PERTAMA) ===== */
+nav {
+    text-align: center;
+    background: #030915;
+    padding: 14px 0;
+    border-bottom: 2px solid #00c4ff;
+}
+
+/* ===== BUTTON NAV ===== */
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 18px;
+
+    font-family: "Orbitron", sans-serif;
+    color: #00eaff;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    border: 2px solid #00eaff;
+    border-radius: 8px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(0, 255, 255, 0.07),
+        rgba(0, 180, 255, 0.18)
+    );
+
+    transition: 0.3s ease;
+}
+
+/* Hover */
+nav a:hover {
+    color: #ffffff;
+    border-color: #27f3ff;
+    box-shadow: 
+        0 0 8px #27f3ff,
+        0 0 20px rgba(39, 243, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Click effect */
+nav a:active {
+    transform: translateY(1px) scale(0.97);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img {
+     width: 100%;         
+    max-width: 400px;     
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 15px;
+    border: 2px solid #00eaff;
+    box-shadow: 0 0 18px rgba(0, 238, 255, 0.4);
+    transition: 0.3s ease;
+}
